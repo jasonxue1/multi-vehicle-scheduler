@@ -1,0 +1,38 @@
+{
+  "name": "bootstrap_city_block",
+  "map_width": 1200,
+  "map_height": 720,
+  "road_y_min": 190,
+  "road_y_max": 530,
+  "lane_center_y": [280, 440],
+  "vehicles": [
+    {
+      "vehicle_id": "ego",
+      "x": 120,
+      "y": 280,
+      "yaw": 0,
+      "speed": 60,
+      "desired_speed": 60,
+      "is_ego": true,
+      "color": [245, 130, 48]
+    },
+    {
+      "vehicle_id": "bg_01",
+      "x": 40,
+      "y": 280,
+      "yaw": 0,
+      "speed": 58,
+      "desired_speed": 58,
+      "color": [120, 190, 90]
+    },
+    {
+      "vehicle_id": "bg_02",
+      "x": 0,
+      "y": 440,
+      "yaw": 0,
+      "speed": 68,
+      "desired_speed": 68,
+      "color": [80, 140, 255]
+    }
+  ]
+}
